@@ -4,7 +4,7 @@ date: 2022-03-27
 ---
 
 <script setup>
-import GoogleSlidesIframe from "../../components/GoogleSlidesIframe.vue"
+import GoogleSlidesIframe from "../.vitepress/theme/components//GoogleSlidesIframe.vue"
 </script>
 
 # traP LT 2022

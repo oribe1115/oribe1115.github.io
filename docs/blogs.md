@@ -1,5 +1,5 @@
 <script setup>
-import SiteCard from '../components/SiteCard.vue'
+import SiteCard from './.vitepress/theme/components/SiteCard.vue'
 </script>
 
 # Blogs
