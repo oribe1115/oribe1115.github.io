@@ -1,6 +1,9 @@
 import ogp from 'ogp-parser'
 import { TargetSiteKey, TargetSiteUrls } from '../../data/sitecardTargets'
 
+declare const data: {[key in TargetSiteKey]: OGPInfo}
+export { data }
+
 export type OGPInfo = {
   url: string
   title?: string
