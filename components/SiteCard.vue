@@ -15,7 +15,7 @@ const ogpInfo = data[props.siteKey] as OGPInfo
     <img :src="ogpInfo.image" class="image">
     <div class="content">
       <div class="title">{{ ogpInfo.title }}</div>
-      <p class="description">{{ ogpInfo.description }}</p>
+      <div class="description">{{ ogpInfo.description }}</div>
       <div class="hostname">{{ ogpInfo.host }}</div>
     </div>
   </a>
@@ -33,19 +33,20 @@ a:hover {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  width: 40rem;
+  /* width: 40rem; */
   max-width: 100%;
   border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+  margin: 1rem;
+  overflow: hidden;
 }
 .image {
-  /* height: 10rem; */
   height: 100%;
   max-height: 10rem;
-  /* object-fit: cover; */
 }
 .content {
   max-width: 100%;
-  padding: 1rem;
+  padding: 0.8rem;
   flex: 1 1 15rem;
   display: block;
 }
@@ -57,20 +58,18 @@ a:hover {
   overflow: hidden;
   -webkit-line-clamp: 2;
   word-break: break-all;
+  margin-bottom: 0.5rem;
 }
 .description {
-  /* max-height: 10rem; */
-  /* max-height: 8rem; */
-  /* margin-bottom: 0.25rem; */
   display: -webkit-box;
   -webkit-box-orient: vertical;
-  /* text-overflow: ellipsis; */
   overflow: hidden;
   -webkit-line-clamp: 3;
   word-break: break-all;
   color: var(--vp-c-text-2);
-  /* font-size: 0.8rem;
-  line-height: 1rem; */
+  font-size: 0.8rem;
+  line-height: 1rem;
+  margin-bottom: 0.25rem;
 }
 .hostname {
   color: var(--vp-c-text-2);
