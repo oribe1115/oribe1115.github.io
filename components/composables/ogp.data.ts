@@ -4,7 +4,7 @@ import { TargetSiteKey, TargetSiteUrls } from '../../data/sitecardTargets'
 declare const data: {[key in TargetSiteKey]: OGPInfo}
 export { data }
 
-export type OGPInfo = {
+export interface OGPInfo {
   url: string
   title?: string
   image?: string
