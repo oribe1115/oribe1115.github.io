@@ -1,6 +1,8 @@
 ---
 title: traP LT 2022
 date: 2022-03-27
+prev: false
+next: false
 ---
 
 <script setup>
