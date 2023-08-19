@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "oribe.work",
-  description: "oribe's Home Page",
+  description: "oribe's Website",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -24,10 +24,15 @@ export default defineConfig({
         link: '/slides/index'
       }
     ],
-
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+    search: {
+      provider: 'local'
+    }
   },
-  cleanUrls: true
+  cleanUrls: true,
+  head: [
+    [
+      'link',
+      { rel: 'icon', href: '/icon.png'}
+    ]
+  ]
 })

@@ -4,8 +4,9 @@ layout: home
 
 hero:
   name: "oribe.work"
-  text: "oribe's Home Page"
-  tagline: My great project tagline
+  tagline: oribe / oribe1115
+  image:
+    src: /icon.png
   actions:
     - theme: brand
       text: About
