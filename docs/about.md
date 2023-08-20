@@ -1,15 +1,13 @@
+<script setup>
+import ProfileCard from './.vitepress/theme/components/ProfileCard.vue'
+</script>
+
 # About
 
-<!-- TODO: レイアウト -->
-
-oribe 
-github
-twitter
+<ProfileCard />
 
 ## スキル
 Go, TypeScript, JavaScript, Vue.js, React, Docker
-
-サーバーサイドを中心にwebアプリケーションの開発・運用をしています
 
 ## 所属
 - 東京工業大学修士課程(2022-)
