@@ -29,6 +29,10 @@ export default defineConfig({
     [
       'link',
       { rel: 'icon', href: '/icon.png'}
+    ],
+    [
+      'meta',
+      { property: 'og:image', content: '/icon-square.png' }
     ]
   ]
 })

@@ -3,6 +3,11 @@ title: プログラミング未経験でtraPに入ってGoogleのインターン
 date: 2022-03-27
 prev: false
 next: false
+
+head:
+ - - meta
+   - property: og:image
+     content: /ogp/slides/traPLT2022.png
 ---
 
 <script setup>
