@@ -1,18 +1,40 @@
 export enum TargetSiteKey {
+  ChromebookVSCodeServer= 'chromebook-vscode-server',
   ISUCON12Final = 'isucon12-final',
-  MercariTestGen = 'mercari-testgen'
+  ISUCON12Qualify = 'isucon12-qualify',
+  ISUCONWorkshop2022 = 'isucon-workshop-2022',
+  ISUCON11Admin = 'isucon11-admin',
+  CPCTF2021Scoreserver = 'cpctf2021-scoreserver',
+  ISUCON10Qualify = 'isucon10-qualify'
 }
 
 export const TargetSiteUrls: {key:TargetSiteKey, url:string}[] = [
+  {
+    key: TargetSiteKey.ChromebookVSCodeServer,
+    url: 'https://trap.jp/post/1717/'
+  },
   {
     key: TargetSiteKey.ISUCON12Final,
     url: 'https://trap.jp/post/1710/'
   },
   {
-    key: TargetSiteKey.MercariTestGen,
-    url: 'https://oribe1115.hatenablog.com/entry/2020/09/09/011304'
+    key: TargetSiteKey.ISUCON12Qualify,
+    url: 'https://trap.jp/post/1710/'
+  },
+  {
+    key: TargetSiteKey.ISUCONWorkshop2022,
+    url: 'https://trap.jp/post/1614/'
+  },
+  {
+    key: TargetSiteKey.ISUCON11Admin,
+    url: 'https://trap.jp/post/1712/'
+  },
+  {
+    key: TargetSiteKey.CPCTF2021Scoreserver,
+    url: 'https://trap.jp/post/1308/'
+  },
+  {
+    key: TargetSiteKey.ISUCON10Qualify,
+    url: 'https://trap.jp/post/1119/'
   }
 ]
-
-// [TargetSiteKey.ISUCON12Final]: 'https://trap.jp/post/1710/',
-  // [TargetSiteKey.MercariTestGen]: 'https://oribe1115.hatenablog.com/entry/2020/09/09/011304'

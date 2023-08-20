@@ -7,7 +7,7 @@ const props = defineProps<{
     siteKey: TargetSiteKey
 }>()
 
-const ogpInfo = data[props.siteKey] as OGPInfo
+const ogpInfo = (data[props.siteKey] ?? {}) as OGPInfo
 </script>
 
 <template>

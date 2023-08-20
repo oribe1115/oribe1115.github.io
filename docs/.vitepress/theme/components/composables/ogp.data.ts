@@ -29,12 +29,18 @@ export default {
 
 const genOgpInfo = async (url: string) => {
   const ogpData =  await ogp(url)
+
+  const getMetaValue = (name: string) => {
+    const values = ogpData.ogp[name]
+    return values ? values[0] : ''
+  }
+
   const info: OGPInfo = {
     url: url,
-    title: ogpData.ogp['og:title'][0],
-    image: ogpData.ogp['og:image'][0],
-    siteName: ogpData.ogp['og:site_name'][0],
-    description: ogpData.ogp['og:description'][0],
+    title: getMetaValue('og:title'),
+    image: getMetaValue('og:image'),
+    siteName: getMetaValue('og:site_name'),
+    description: getMetaValue('og:description'),
     host: new URL(url).hostname
   }
   return info
