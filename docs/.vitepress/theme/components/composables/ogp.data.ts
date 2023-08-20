@@ -1,5 +1,5 @@
-import ogp from 'ogp-parser'
 import { TargetSiteKey, TargetSiteUrls } from '../../data/sitecardTargets'
+import ogs from 'open-graph-scraper'
 
 declare const data: {[key in TargetSiteKey]: OGPInfo}
 export { data }
@@ -28,19 +28,25 @@ export default {
 }
 
 const genOgpInfo = async (url: string) => {
-  const ogpData =  await ogp(url)
+  const result = await ogs({url})
 
-  const getMetaValue = (name: string) => {
-    const values = ogpData.ogp[name]
-    return values ? values[0] : ''
+  if (result.error) {
+    return {
+      url: url,
+      host: new URL(url).hostname
+    }
   }
+
+  const ogpData = result.result
+
+  const imageUrl:string = ogpData.ogImage ? ogpData.ogImage[0].url : ''
 
   const info: OGPInfo = {
     url: url,
-    title: getMetaValue('og:title'),
-    image: getMetaValue('og:image'),
-    siteName: getMetaValue('og:site_name'),
-    description: getMetaValue('og:description'),
+    title: ogpData.ogTitle,
+    image: imageUrl,
+    siteName: ogpData.ogSiteName,
+    description: ogpData.ogDescription,
     host: new URL(url).hostname
   }
   return info
