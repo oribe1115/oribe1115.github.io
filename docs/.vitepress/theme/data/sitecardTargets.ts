@@ -5,7 +5,9 @@ export enum TargetSiteKey {
   ISUCONWorkshop2022 = 'isucon-workshop-2022',
   ISUCON11Admin = 'isucon11-admin',
   CPCTF2021Scoreserver = 'cpctf2021-scoreserver',
-  ISUCON10Qualify = 'isucon10-qualify'
+  ISUCON10Qualify = 'isucon10-qualify',
+
+  TRAPLT2022 = 'traP-lt-2022'
 }
 
 export const TargetSiteUrls: {key:TargetSiteKey, url:string}[] = [
@@ -36,5 +38,10 @@ export const TargetSiteUrls: {key:TargetSiteKey, url:string}[] = [
   {
     key: TargetSiteKey.ISUCON10Qualify,
     url: 'https://trap.jp/post/1119/'
+  },
+
+  {
+    key: TargetSiteKey.TRAPLT2022,
+    url: 'https://trap.jp/post/1435/'
   }
 ]
