@@ -32,7 +32,7 @@ export default defineConfig({
     ],
     [
       'meta',
-      { property: 'og:image', content: '/icon-square.png' }
+      { property: 'og:image', content: 'https://oribe.work/icon-square.png' }
     ]
   ]
 })

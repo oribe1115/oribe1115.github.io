@@ -7,7 +7,7 @@ next: false
 head:
  - - meta
    - property: og:image
-     content: /ogp/slides/traPLT2022.png
+     content: https://oribe.work/ogp/slides/traPLT2022.png
 ---
 
 <script setup>
