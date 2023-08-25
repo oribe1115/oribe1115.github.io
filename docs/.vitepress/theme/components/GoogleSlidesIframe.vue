@@ -19,7 +19,7 @@ embedingUrl.search = queryParamsForSlideshowSetting
   <div class="container">
     <iframe :src="embedingUrl.toString()" class="iframe" />
     <div>
-      <a :href="fullSizeUrl.toString()">open slide as website</a>
+      <a :href="fullSizeUrl.toString()">Open the slide as a web page</a>
     </div>
   </div>
   

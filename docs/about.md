@@ -19,6 +19,11 @@ Go, TypeScript, JavaScript, Vue.js, React, Docker
 - ISUCON11 予選作問
 - ISUCON10 本選出場(学生枠) 「BruteForce」
 
+## 主な開発・運用
+- traPortal(2019-)
+- [CPCTF2021 scoreserver](https://trap.jp/post/1308/)(2021)
+- [tsundoku](https://github.com/unipota/tsundoku)(2019)
+
 ## インターン
 - Google SWE Internship(2022/07-2022/09)
 - Google SWE Internship(2021/09-2021/11)
