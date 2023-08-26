@@ -7,7 +7,8 @@ export enum TargetSiteKey {
   CPCTF2021Scoreserver = 'cpctf2021-scoreserver',
   ISUCON10Qualify = 'isucon10-qualify',
 
-  TRAPLT2022 = 'traP-lt-2022'
+  TRAPLT2022 = 'traP-lt-2022',
+  ISUCONSummerFes2023 = 'isucon-summer-fes-2023'
 }
 
 export const TargetSiteUrls: {key:TargetSiteKey, url:string}[] = [
@@ -43,5 +44,9 @@ export const TargetSiteUrls: {key:TargetSiteKey, url:string}[] = [
   {
     key: TargetSiteKey.TRAPLT2022,
     url: 'https://trap.jp/post/1435/'
+  },
+  {
+    key: TargetSiteKey.ISUCONSummerFes2023,
+    url: 'https://isucon.connpass.com/event/288820/'
   }
 ]
