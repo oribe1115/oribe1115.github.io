@@ -15,6 +15,7 @@ Go, TypeScript, JavaScript, Vue.js, React, Docker
 - 東京工業大学(2018-2022)
 
 ## 実績
+- ISUCON13 全体2位(学生1位) 「織時屋」
 - ISUCON12 全体2位(学生1位) 「織時屋」
 - ISUCON11 予選作問
 - ISUCON10 本選出場(学生枠) 「BruteForce」
