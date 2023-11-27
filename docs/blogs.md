@@ -8,6 +8,9 @@ import SiteCard from './.vitepress/theme/components/SiteCard.vue'
 
 ## 主要な記事
 
+### ISUCON13で2位になりました(織時屋)
+<SiteCard siteKey='isucon13' />
+
 ### Chromebook＆VSCode Server(プレビューアクセスなし)で開発環境を作る
 <SiteCard siteKey='chromebook-vscode-server' />
 

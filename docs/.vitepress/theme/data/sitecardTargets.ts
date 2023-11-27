@@ -8,10 +8,15 @@ export enum TargetSiteKey {
   ISUCON10Qualify = 'isucon10-qualify',
 
   TRAPLT2022 = 'traP-lt-2022',
-  ISUCONSummerFes2023 = 'isucon-summer-fes-2023'
+  ISUCONSummerFes2023 = 'isucon-summer-fes-2023',
+  ISUCON13 = 'isucon13',
 }
 
 export const TargetSiteUrls: {key:TargetSiteKey, url:string}[] = [
+  {
+    key: TargetSiteKey.ISUCON13,
+    url: 'https://trap.jp/post/2049/',
+  },
   {
     key: TargetSiteKey.ChromebookVSCodeServer,
     url: 'https://trap.jp/post/1717/'
