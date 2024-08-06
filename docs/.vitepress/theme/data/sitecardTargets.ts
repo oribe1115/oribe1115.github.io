@@ -1,5 +1,5 @@
 export enum TargetSiteKey {
-  ChromebookVSCodeServer= 'chromebook-vscode-server',
+  ChromebookVSCodeServer = 'chromebook-vscode-server',
   ISUCON12Final = 'isucon12-final',
   ISUCON12Qualify = 'isucon12-qualify',
   ISUCONWorkshop2022 = 'isucon-workshop-2022',
@@ -10,12 +10,14 @@ export enum TargetSiteKey {
   TRAPLT2022 = 'traP-lt-2022',
   ISUCONSummerFes2023 = 'isucon-summer-fes-2023',
   ISUCON13 = 'isucon13',
+
+  _24SOTSUSUPERLT202408 = '24sotsu-super-lt-202408',
 }
 
-export const TargetSiteUrls: {key:TargetSiteKey, url:string}[] = [
+export const TargetSiteUrls: { key: TargetSiteKey; url: string }[] = [
   {
     key: TargetSiteKey.ISUCON13,
-    url: 'https://trap.jp/post/2049/',
+    url: 'https://trap.jp/post/2049/'
   },
   {
     key: TargetSiteKey.ChromebookVSCodeServer,
@@ -53,5 +55,9 @@ export const TargetSiteUrls: {key:TargetSiteKey, url:string}[] = [
   {
     key: TargetSiteKey.ISUCONSummerFes2023,
     url: 'https://isucon.connpass.com/event/288820/'
+  },
+  {
+    key: TargetSiteKey._24SOTSUSUPERLT202408,
+    url: 'https://connpass.com/event/325217/'
   }
 ]
