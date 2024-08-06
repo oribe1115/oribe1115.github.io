@@ -7,7 +7,7 @@ import { icons } from 'vitepress/dist/client/theme-default/support/socialIcons'
     <div class="info">
       <div class="name">oribe</div>
       <div>
-        Software Developer
+        Software Engineer
       </div>
       <div class="accounts">
         <a href="https://github.com/oribe1115" class="service-info">

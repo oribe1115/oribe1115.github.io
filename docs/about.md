@@ -10,8 +10,9 @@ import ProfileCard from './.vitepress/theme/components/ProfileCard.vue'
 Go, TypeScript, JavaScript, Vue.js, React, Docker
 
 ## 所属
-- 東京工業大学修士課程(2022-)
-- [東京工業大学デジタル創作同好会traP](https://trap.jp)(2018-)
+- Google(2024-)
+- 東京工業大学修士課程(2022-2024)
+- [東京工業大学デジタル創作同好会traP](https://trap.jp)(2018-2024)
 - 東京工業大学(2018-2022)
 
 ## 実績
@@ -21,7 +22,7 @@ Go, TypeScript, JavaScript, Vue.js, React, Docker
 - ISUCON10 本選出場(学生枠) 「BruteForce」
 
 ## 主な開発・運用
-- traPortal(2019-)
+- traPortal(2019-2024)
 - [CPCTF2021 scoreserver](https://trap.jp/post/1308/)(2021)
 - [tsundoku](https://github.com/unipota/tsundoku)(2019)
 
