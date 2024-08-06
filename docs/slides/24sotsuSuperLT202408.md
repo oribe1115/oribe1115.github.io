@@ -17,7 +17,7 @@ import SiteCard from '../.vitepress/theme/components/SiteCard.vue'
 
 # コマンド覚えられない系エンジニアのための開発環境構築
 
-2024/08/3に開催された「24卒超LT大会」にて発表
+2024/08/03に開催された「24卒超LT大会」にて発表
 
 <SiteCard siteKey='24sotsu-super-lt-202408' />
 
