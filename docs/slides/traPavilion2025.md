@@ -1,13 +1,13 @@
 ---
-title: "[YAPC::Hakodate 2024] U25支援企画セッション - oribe"
-date: 2024-10-05
+title: "[traPavilion] デジタルイラストのデータ構造を考える"
+date: 2025-10-13
 prev: false
 next: false
 
 head:
  - - meta
    - property: og:image
-     content: https://oribe.work/ogp/slides/YAPCHakodate2024U25Session.png
+     content: https://oribe.work/ogp/slides/traPavilion2025.png
 ---
 
 <script setup>
@@ -15,8 +15,10 @@ import GoogleSlidesIframe from "../.vitepress/theme/components/GoogleSlidesIfram
 import SiteCard from '../.vitepress/theme/components/SiteCard.vue'
 </script>
 
-# [YAPC::Hakodate 2024] U25支援企画セッション - oribe
+# デジタルイラストのデータ構造を考える
 
-2024/10/05に開催された[YAPC::Hakodate 2024](https://yapcjapan.org/2024hakodate/)の[U25支援企画セッション](https://blog.yapcjapan.org/entry/2024/10/04/143000)にて発表
+2025/10/13に開催された[traPavilion](https://trapavilion.trap.show/)にて発表
+
+<SiteCard siteKey='traPavilion' />
 
 <GoogleSlidesIframe shareLink="https://docs.google.com/presentation/d/e/2PACX-1vSR7mv7C6qu1t5YSrGiCxfa3_Z6XI6ERnCARX5uq7-Mh6HDVK7HubqyhSaeU9qi6NCHvHcMnEuubJHN/pub?start=false&loop=false&delayms=3000" />

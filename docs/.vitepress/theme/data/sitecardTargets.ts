@@ -12,6 +12,8 @@ export enum TargetSiteKey {
   ISUCON13 = 'isucon13',
 
   _24SOTSUSUPERLT202408 = '24sotsu-super-lt-202408',
+
+  TRAPAVILION = 'traPavilion',
 }
 
 export const TargetSiteUrls: { key: TargetSiteKey; url: string }[] = [
@@ -59,5 +61,9 @@ export const TargetSiteUrls: { key: TargetSiteKey; url: string }[] = [
   {
     key: TargetSiteKey._24SOTSUSUPERLT202408,
     url: 'https://connpass.com/event/325217/'
+  },
+  {
+    key: TargetSiteKey.TRAPAVILION,
+    url: 'https://trapavilion.trap.show/'
   }
 ]
