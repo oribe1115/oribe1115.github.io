@@ -19,4 +19,4 @@ import SiteCard from '../.vitepress/theme/components/SiteCard.vue'
 
 2024/10/05に開催された[YAPC::Hakodate 2024](https://yapcjapan.org/2024hakodate/)の[U25支援企画セッション](https://blog.yapcjapan.org/entry/2024/10/04/143000)にて発表
 
-<GoogleSlidesIframe shareLink="https://docs.google.com/presentation/d/e/2PACX-1vSR7mv7C6qu1t5YSrGiCxfa3_Z6XI6ERnCARX5uq7-Mh6HDVK7HubqyhSaeU9qi6NCHvHcMnEuubJHN/pub?start=false&loop=false&delayms=3000" />
+<GoogleSlidesIframe shareLink="https://docs.google.com/presentation/d/e/2PACX-1vSS-rgwuiBuyTP4X5xzAweUzvlmEpMilDdkTqM50qJnCqiq2u9ITc7-kqF6oErqvAdAG3LQzTPm2Q3P/pub?start=false&loop=false&delayms=3000" />
